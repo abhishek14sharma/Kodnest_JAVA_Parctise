@@ -1,0 +1,19 @@
+package package21;
+
+public class digitCount 
+{
+	public static void countDigit(int num)
+	{
+		int i=0;
+		do 
+		{
+			int res=num/10;
+		}
+		while(i<num);
+		i++;
+		if(num==0)
+		{
+			System.out.println(i);
+		}
+	}
+}

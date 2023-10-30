@@ -1,0 +1,10 @@
+package fpackage;
+
+public class tempratureConverter 
+{
+	public double tempratureConverter(double farhenheit)
+	{
+		return (farhenheit-32)*5/9;
+	}
+
+}

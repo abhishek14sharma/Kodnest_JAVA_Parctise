@@ -1,0 +1,10 @@
+package package19;
+
+public class powerRaise 
+{
+	public static int power(int num)
+	{
+		int result=num^2;
+		return result;
+	}
+}

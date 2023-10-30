@@ -1,0 +1,28 @@
+package package23;
+
+public class alphabet 
+{
+	public static void alphabetidentify(String alpha)
+	{
+		switch(alpha)
+		{
+		case"a","e","i","o","u":
+			System.out.println("Vowel");
+		break;
+		case"A","E","I","O","U":
+			System.out.println("Vowel");
+		break;
+		case "a>=z":
+			System.out.println("Consonant");
+		break;
+		case "A>=Z":
+			System.out.println("Consonant");
+		break;
+		default:
+			System.out.println("Invalid Input");
+		break;
+			
+		}
+	}
+
+}

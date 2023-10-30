@@ -1,0 +1,21 @@
+package epackage;
+
+import java.util.Scanner;
+
+public class journeyCalculator 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter the speed in kmph=");
+		double speed=scan.nextDouble();
+		System.out.println("Enter the time in hours=");
+		double time=scan.nextDouble();
+		System.out.println("The distance travelled is="+calculateDistance(speed, time));
+		scan.close();
+	}
+	public static double calculateDistance(double speed, double time)
+	{
+		return (speed*time)=2;
+	}
+}
